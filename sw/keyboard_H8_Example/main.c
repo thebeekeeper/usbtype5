@@ -39,6 +39,8 @@
 
 #include "main.h"                                               //HID key codes stored here
 
+#include "scan.h"
+
 VOID Init_Ports (VOID);
 VOID Init_Clock (VOID);
 
@@ -218,7 +220,7 @@ VOID Init_Ports (VOID)
     P5DIR = 0xFF;
     P6OUT = 0x00;
     P6DIR = 0xFF;
-	P7OUT = 0x00;
+    P7OUT = 0x00;
     P7DIR = 0xFF;
     P8OUT = 0x00;
     P8DIR = 0xFF;

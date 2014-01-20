@@ -2,11 +2,11 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>2918193489</fileChecksum>
+  <fileChecksum>726015434</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\hal_macros.h</file>
+      <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_MACROS.h</file>
       <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_FLASH.h</file>
       <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_FLASH.c</file>
       <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_PMAP.c</file>
@@ -102,6 +102,10 @@
       <file>$PROJ_DIR$\Debug\Obj\dma.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\UsbHidReq.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\descriptors.r43</file>
+      <file>$PROJ_DIR$\scan.h</file>
+      <file>$PROJ_DIR$\scan.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\scan.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\scan.r43</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
@@ -518,11 +522,11 @@
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 31 16 14 71 70 76 77 18 10 73 75 74 72 78 79 80 81 0 6 21 84</file>
+          <file> 31 16 14 71 70 76 77 18 10 73 75 74 72 78 79 80 81 0 6 21 84 96</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 31 16 14 71 70 76 77 18 10 73 75 74 72 79 80 81 0 6 21 84</file>
+          <file> 31 16 14 71 70 76 77 18 10 73 75 74 72 79 80 81 0 6 21 84 96</file>
         </tool>
       </inputs>
     </file>
@@ -554,7 +558,7 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 67 68 90 87 82 91 92 86 88 94 39 45 46 47 38 95 93 40 89 44 41 83</file>
+          <file> 67 68 90 87 82 91 92 86 88 94 39 45 46 47 38 95 93 40 99 89 44 41 83</file>
         </tool>
       </inputs>
     </file>
@@ -563,7 +567,26 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 43 42 48 49 50 51 54 56 61 55 57 58 59 60 52 62 53 63 64</file>
+          <file> 43 42 48 49 50 51 54 56 61 55 57 58 59 60 52 62 98 53 63 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\scan.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 96 70 76 77 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 70 76 77 84</file>
         </tool>
       </inputs>
     </file>

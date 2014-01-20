@@ -1,0 +1,2 @@
+
+void scan(int column);

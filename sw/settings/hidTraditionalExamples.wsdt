@@ -78,7 +78,7 @@
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\keyboard_H8_Example\main.h</Filename><XPos>0</XPos><YPos>1</YPos><SelStart>1763</SelStart><SelEnd>1763</SelEnd></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\keyboard_H8_Example\main.c</Filename><XPos>0</XPos><YPos>276</YPos><SelStart>9668</SelStart><SelEnd>9668</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\keyboard_H8_Example\scan.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>23</SelStart><SelEnd>23</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\keyboard_H8_Example\scan.c</Filename><XPos>4</XPos><YPos>0</YPos><SelStart>2053</SelStart><SelEnd>2053</SelEnd></Tab><ActiveTab>2</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0\430\inc\msp430f5529.h</Filename><XPos>0</XPos><YPos>111</YPos><SelStart>3530</SelStart><SelEnd>3530</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\keyboard_H8_Example\main.h</Filename><XPos>0</XPos><YPos>24</YPos><SelStart>5139</SelStart><SelEnd>5139</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       

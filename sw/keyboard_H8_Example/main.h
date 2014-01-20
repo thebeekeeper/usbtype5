@@ -130,7 +130,7 @@
 #define usbUsageFind                0x7E
 #define usbUsageMute                0x7F
 #define usbUsageVolumeUp            0x80
-#define usbUsageVolumneDown         0x81
+#define usbUsageVolumeDown         0x81
 #define usbUsageLockingCapsLock     0x82
 #define usbUsageLockingNumLock      0x83
 #define usbUsageLockingScrollLock   0x84

@@ -1881,7 +1881,7 @@
       <name>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_FLASH.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\F5xx_F6xx_Core_Lib\hal_macros.h</name>
+      <name>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_MACROS.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_PMAP.c</name>
@@ -2006,6 +2006,12 @@
   </group>
   <file>
     <name>$PROJ_DIR$\main.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\scan.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\scan.h</name>
   </file>
   <file>
     <name>$PROJ_DIR$\usbConstructs.c</name>
